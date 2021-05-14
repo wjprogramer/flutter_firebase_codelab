@@ -14,6 +14,7 @@ dependencies:
   # MIT
   # Android iOS Linux macOS web Windows
   cupertino_icons: ^1.0.3
+  provider: ^5.0.0
 
   # Apache 2.0
   # Android iOS Linux macOS web Windows
@@ -22,6 +23,9 @@ dependencies:
   # BSD
   # Android iOS Linux macOS web Windows
   pedantic: ^1.11.0
+  # Android iOS macOS web
+  cloud_firestore: ^2.1.0
+  firebase_auth: ^1.1.4
 
 dev_dependencies:
   flutter_test:
