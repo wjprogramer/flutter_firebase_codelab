@@ -1,14 +1,7 @@
 import 'package:flutter/material.dart';
-
-import 'widgets.dart';
-
-enum ApplicationLoginState {
-  loggedOut,
-  emailAddress,
-  register,
-  password,
-  loggedIn,
-}
+import 'package:flutter_firebase_codelab/enums/application_login_state.dart';
+import 'package:flutter_firebase_codelab/widgets/header.dart';
+import 'package:flutter_firebase_codelab/widgets/styled_button.dart';
 
 class Authentication extends StatelessWidget {
   const Authentication({
