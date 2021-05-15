@@ -76,6 +76,8 @@ class HomePage extends StatelessWidget {
           Paragraph(
             'Join us for a day full of Firebase Workshops and Pizza!',
           ),
+          Header('Discussion'),
+          GuestBook(addMessage: (String message) => print(message)),
         ],
       ),
     );
