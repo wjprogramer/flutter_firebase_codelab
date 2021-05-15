@@ -50,7 +50,11 @@ service cloud.firestore {
 
 未完成...
 
-- [ ] ...
+- [ ] Analytics
+- [ ] Cloud Functions
+- [ ] Cloud Messaging
+- [ ] Cloud Storage
+- [ ] Crashlytics
 
 ## 參考
 

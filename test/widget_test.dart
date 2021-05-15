@@ -1,4 +1,4 @@
-import 'package:flutter_firebase_codelab/main.dart';
+import 'package:flutter_firebase_codelab/app/app.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
