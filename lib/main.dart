@@ -1,6 +1,7 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_firebase_codelab/app/dependency_injection.dart';
+import 'package:flutter_firebase_codelab/core/notification.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 
@@ -10,6 +11,7 @@ import 'app/app_state.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
+  await initNotification();
   await Firebase.initializeApp();
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 

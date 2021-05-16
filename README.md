@@ -58,6 +58,8 @@ service cloud.firestore {
 - [ ] Analytics
 - [ ] Cloud Functions
 - [ ] Cloud Messaging
+    - [x] Basic
+    - [ ] Apple / FCM via APNs Integration
 - [ ] Crashlytics
 
 ## 參考
