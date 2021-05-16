@@ -26,6 +26,7 @@ dependencies:
   # Android iOS macOS web
   cloud_firestore: ^2.1.0
   firebase_auth: ^1.1.4
+  firebase_storage: ^8.0.6
 
 dev_dependencies:
   flutter_test:
