@@ -6,8 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_firebase_codelab/enums/application_login_state.dart';
 import 'package:flutter_firebase_codelab/enums/attending.dart';
 import 'package:flutter_firebase_codelab/models/guest_book_message.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 
 /// TODO: 它無法處理具有現有帳戶的用戶登錄時遇到的問題
 class ApplicationState extends ChangeNotifier {

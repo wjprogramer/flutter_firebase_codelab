@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_firebase_codelab/app/app_state.dart';
 import 'package:flutter_firebase_codelab/enums/application_login_state.dart';
-import 'package:flutter_firebase_codelab/core/authentication.dart';
+import 'package:flutter_firebase_codelab/widgets/authentication.dart';
 import 'package:flutter_firebase_codelab/widgets/guest_book.dart';
 import 'package:flutter_firebase_codelab/widgets/header.dart';
 import 'package:flutter_firebase_codelab/widgets/icon_and_detail.dart';
