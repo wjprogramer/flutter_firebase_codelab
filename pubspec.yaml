@@ -15,10 +15,13 @@ dependencies:
   # Android iOS Linux macOS web Windows
   cupertino_icons: ^1.0.3
   provider: ^5.0.0
+  get_it: ^7.1.3
+  # Android iOS web
+  image_picker_gallery_camera: ^0.2.2
 
   # Apache 2.0
   # Android iOS Linux macOS web Windows
-  google_fonts: ^2.0.0
+  google_fonts: ^2.1.0
 
   # BSD
   # Android iOS Linux macOS web Windows

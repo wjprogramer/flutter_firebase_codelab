@@ -5,6 +5,7 @@ import 'package:flutter_firebase_codelab/widgets/authentication.dart';
 import 'package:flutter_firebase_codelab/widgets/guest_book.dart';
 import 'package:flutter_firebase_codelab/widgets/header.dart';
 import 'package:flutter_firebase_codelab/widgets/icon_and_detail.dart';
+import 'package:flutter_firebase_codelab/widgets/my_information_card.dart';
 import 'package:flutter_firebase_codelab/widgets/paragraph.dart';
 import 'package:flutter_firebase_codelab/widgets/yes_no_selection.dart';
 import 'package:provider/provider.dart';
@@ -62,6 +63,8 @@ class HomePage extends StatelessWidget {
                     state: appState.attending,
                     onSelection: (attending) => appState.attending = attending,
                   ),
+                  Header('My Information'),
+                  MyInformationCard(user: appState.user),
                   Header('Discussion'),
                   GuestBook(
                     addMessage: (String message) =>

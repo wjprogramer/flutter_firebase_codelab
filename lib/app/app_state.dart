@@ -27,6 +27,7 @@ class ApplicationState extends ChangeNotifier {
 
     FirebaseAuth.instance.userChanges().listen((user) {
       if (user != null) {
+        _user = user;
         _loginState = ApplicationLoginState.loggedIn;
         _guestBookSubscription = FirebaseFirestore.instance
             .collection('guestbook')
@@ -61,6 +62,7 @@ class ApplicationState extends ChangeNotifier {
           notifyListeners();
         });
       } else {
+        _user = null;
         _loginState = ApplicationLoginState.loggedOut;
         _guestBookMessages = [];
         _guestBookSubscription?.cancel();
@@ -69,6 +71,9 @@ class ApplicationState extends ChangeNotifier {
       notifyListeners();
     });
   }
+
+  User? _user;
+  User? get user => _user;
 
   ApplicationLoginState _loginState = ApplicationLoginState.loggedOut;
   ApplicationLoginState get loginState => _loginState;
