@@ -1,4 +1,4 @@
-## **設定macOS**
+# **設定macOS**
 
  macOS的配置步驟幾乎與iOS相同。我們將重新使用上述iOS步驟中的配置文件**`GoogleService-Info.plist`** 。
 

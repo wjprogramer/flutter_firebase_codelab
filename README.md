@@ -40,6 +40,10 @@ service cloud.firestore {
 }
 ```
 
+### Cloud Storage
+
+![](screenshots/cloud_storage.PNG)
+
 ## Firebase Products
 
 已完成
@@ -47,13 +51,13 @@ service cloud.firestore {
 - [x] Firebase Authentication
 - [x] Cloud Firestore
     - [x] Firebase Security Rules
+- [x] Cloud Storage
 
 未完成...
 
 - [ ] Analytics
 - [ ] Cloud Functions
 - [ ] Cloud Messaging
-- [ ] Cloud Storage
 - [ ] Crashlytics
 
 ## 參考
