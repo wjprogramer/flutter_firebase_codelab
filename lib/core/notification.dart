@@ -73,7 +73,7 @@ class NotificationUtils {
     String? payload,
   }) async {
     var androidPlatformChannelSpecifics = AndroidNotificationDetails(
-        'your channel id', 'your channel name', 'your channel description',
+        'your channel id', 'your channel name', // 'your channel description',
         importance: Importance.max, priority: Priority.max, ticker: 'ticker');
     var iOSPlatformChannelSpecifics = IOSNotificationDetails();
     var platformChannelSpecifics = NotificationDetails(
